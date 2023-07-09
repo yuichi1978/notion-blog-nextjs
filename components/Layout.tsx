@@ -2,7 +2,7 @@ import Navbar from "./Navbar/Navbar";
 
 const Layout = ({ children }) => {
   return (
-    <div>
+    <div className="global-container container mx-auto">
       <Navbar />
       {children}
     </div>

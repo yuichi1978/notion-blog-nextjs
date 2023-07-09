@@ -1,3 +1,4 @@
+import { WrappedBuildError } from "next/dist/server/base-server";
 import Link from "next/link";
 
 const Navbar = () => {
