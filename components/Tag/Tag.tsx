@@ -13,7 +13,7 @@ const Tag = (props: Props) => {
         <div className="font-medium mb-4 text-center">タグ検索</div>
         <div className="flex justify-evenly items-center flex-wrap">
           {tags.map((tag: string, index: number ) => (
-            <span className="cursor-pointer mb-5 px-2 pb-2 py-2 rounded-xl bg-gray-500 text-white inline-block w-2/5 text-xs md:text-base text-center">
+            <span className="cursor-pointer mb-5 px-2 pb-2 py-3 rounded-xl bg-gray-500 text-white inline-block w-2/5 text-xs md:text-base text-center">
               <Link href={`/posts/tag/${tag}/page/1`} key={index}>
                   {tag}
               </Link>
