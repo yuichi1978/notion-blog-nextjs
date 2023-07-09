@@ -43,7 +43,7 @@ export default function Home({ fourPosts, allTags }) {
             />
           </div>
         ))}
-        <Link href="/posts/page/1" className="container mb-6 lg:w-1/2 mx-auto block text-right">
+        <Link href="/posts/page/1" className="container mb-6 lg:w-1/2 mx-auto block text-right pr-5">
           ...もっと見る
         </Link>
         <Tag tags={allTags} />
